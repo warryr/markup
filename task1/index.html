@@ -3,11 +3,15 @@
     <head>
         <meta charset="utf-8">
         <title>Sitename</title>
+        <link rel="stylesheet" href="css/common.blocks/common.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+              integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+              crossorigin="anonymous">
     </head>
     <body>
         <header class="header">
             <div class="logo">
-                <h1>Sitename</h1>
+                <h1 class="logo__title">Sitename</h1>
             </div>
             <nav class="header-menu">
                 <a class="header-menu__link">Home</a>
@@ -19,20 +23,20 @@
         </header>
         <main class="main">
             <section class="banner">
-                <img class="banner__item" src="images/banner-img1.png">
-                <img class="banner__item" src="images/banner-img2.png">
-                <img class="banner__item" src="images/banner-img3.png">
+                <img class="banner__item_small" src="images/banner-img1.png">
+                <img class="banner__item_large" src="images/banner-img2.png">
+                <img class="banner__item_small" src="images/banner-img3.png">
             </section>
             <section class="about">
                 <div class="about-icons">
                     <div class="about-icons__icon-circle">
-                        <span class="about-icons__icon"></span>
+                        <i class="fas fa-user about-icons__icon"></i>
                     </div>
                     <div class="about-icons__icon-circle">
-                        <span class="about-icons__icon"></span>
+                        <i class="fas fa-pencil-alt about-icons__icon"></i>
                     </div>
                     <div class="about-icons__icon-circle">
-                        <span class="about-icons__icon"></span>
+                        <i class="fas fa-map-marker-alt about-icons__icon"></i>
                     </div>
                 </div>
                 <article class="about-caption">
@@ -43,25 +47,46 @@
             <section class="portfolio">
                 <article class="portfolio-item">
                     <img class="portfolio-item__image" src="images/main-img1.png">
-                    <h3 class="portfolio-item__title"></h3>
-                    <h4 class="portfolio-item__subtitle"></h4>
-                    <p class="portfolio-item__text"></p>
-                    <button class="portfolio-item__more-button">More <span class="portfolio-item__more-plus"></span></button>
+                    <h3 class="portfolio-item__title">
+                        iget celis facilisis ser
+                    </h3>
+                    <h4 class="portfolio-item__subtitle">
+                        Liporttitor mauris sit amet orean dignis
+                    </h4>
+                    <p class="portfolio-item__text">
+                        Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue.
+                        Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus dignisiim equie
+                        lipor titor alseuqm.</p>
+                    <button class="portfolio-item__more-button">
+                        More
+                        <i class="fas fa-plus-circle portfolio-item__more-plus"></i>
+                    </button>
                 </article>
                 <article class="portfolio-item">
                     <img class="portfolio-item__image" src="images/main-img2.png">
-                    <h3 class="portfolio-item__title"></h3>
-                    <h4 class="portfolio-item__subtitle"></h4>
-                    <p class="portfolio-item__text"></p>
-                    <button class="portfolio-item__more-button">More <span class="portfolio-item__more-plus"></span></button>
+                    <h3 class="portfolio-item__title">
+                        Integer vitae libero acris
+                    </h3>
+                    <h4 class="portfolio-item__subtitle">
+                        Fusce lobortis lorem at ipsum semper sagittis
+                    </h4>
+                    <p class="portfolio-item__text">
+                        Jined egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue.
+                        Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus dignisiim equie
+                        lipor titor alseuqm.
+                    </p>
+                    <button class="portfolio-item__more-button">
+                        More
+                        <i class="fas fa-plus-circle portfolio-item__more-plus"></i>
+                    </button>
                 </article>
                 <aside class="quick-contact">
                     <h3 class="quick-contact__title">Quick contact</h3>
                     <form class="contact-form">
-                        <input class="contact-form__name">
-                        <input class="contact-form__email">
-                        <textarea class="contact-form__message"></textarea>
-                        <button type="submit" class="contact-form__submit-button"></button>
+                        <input class="contact-form__name" placeholder="Enter your name ...">
+                        <input class="contact-form__email" placeholder="Enter email id...">
+                        <textarea class="contact-form__message" placeholder="Message..."></textarea>
+                        <button type="submit" class="contact-form__submit-button">Submit</button>
                     </form>
                 </aside>
             </section>
@@ -88,49 +113,113 @@
                     <h3 class="blog__title">From blog</h3>
                     <article class="blog-item">
                         <p class="blog-item__text">“ Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamco... ”</p>
-                        <p class="blog-item__author"><span class="blog-item__author-icon"></span> John Doe</p>
-                        <p class="blog-item__date"><span class="blog-item__date-icon"></span> 09-07-2013</p>
-                        <p class="blog-item__comments"><span class="blog-item__comments-icon"></span> 12 Comments</p>
+                        <div class="blog-item__info">
+                            <p class="blog-item__author">
+                                <i class="fas fa-user blog-item__author-icon"></i>
+                                John Doe
+                            </p>
+                            <p class="blog-item__date">
+                                <i class="far fa-clock blog-item__comments-icon"></i>
+                                09-07-2013
+                            </p>
+                            <p class="blog-item__comments">
+                                <i class="fas fa-comments blog-item__comments-icon"></i>
+                                12 Comments
+                            </p>
+                        </div>
                     </article>
                     <article class="blog-item">
                         <p class="blog-item__text">“ Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamco... ”</p>
-                        <p class="blog-item__author"><span class="blog-item__author-icon"></span> John Doe</p>
-                        <p class="blog-item__date"><span class="blog-item__date-icon"></span> 09-07-2013</p>
-                        <p class="blog-item__comments"><span class="blog-item__comments-icon"></span> 12 Comments</p>
+                        <div class="blog-item__info">
+                            <p class="blog-item__author">
+                                <i class="fas fa-user blog-item__author-icon"></i>
+                                John Doe
+                            </p>
+                            <p class="blog-item__date">
+                                <i class="far fa-clock blog-item__comments-icon"></i>
+                                09-07-2013
+                            </p>
+                            <p class="blog-item__comments">
+                                <i class="fas fa-comments blog-item__comments-icon"></i>
+                                12 Comments
+                            </p>
+                        </div>
                     </article>
                     <article class="blog-item">
                         <p class="blog-item__text">“ Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamco... ”</p>
-                        <p class="blog-item__author"><span class="blog-item__author-icon"></span> John Doe</p>
-                        <p class="blog-item__date"><span class="blog-item__date-icon"></span> 09-07-2013</p>
-                        <p class="blog-item__comments"><span class="blog-item__comments-icon"></span> 12 Comments</p>
+                        <div class="blog-item__info">
+                            <p class="blog-item__author">
+                                <i class="fas fa-user blog-item__author-icon"></i>
+                                John Doe
+                            </p>
+                            <p class="blog-item__date">
+                                <i class="far fa-clock blog-item__comments-icon"></i>
+                                09-07-2013
+                            </p>
+                            <p class="blog-item__comments">
+                                <i class="fas fa-comments blog-item__comments-icon"></i>
+                                12 Comments
+                            </p>
+                        </div>
                     </article>
                 </section>
                 <section class="lorem">
                     <h3 class="lorem__title">Lorem ipsum</h3>
                     <p class="lorem__caption"></p>
-                    <ul class="lorem-list">   
-                        <li class="lorem-list__item"><span class="lorem-list__bullet"></span> Aliquam tincidunt mauris eu risu</li>
-                        <li class="lorem-list__item"><span class="lorem-list__bullet"></span> Integer vitae libero ac risus egestas place</li>
-                        <li class="lorem-list__item"><span class="lorem-list__bullet"></span> Donec quis dui at dolor tempor interdu</li>
-                        <li class="lorem-list__item"><span class="lorem-list__bullet"></span> Fusce lobortis lorem at ipsum semper sagitti</li>
-                        <li class="lorem-list__item"><span class="lorem-list__bullet"></span> Vestibulum auctor dapibus nequ</li>
+                    <ul class="lorem-list">
+                        <li class="lorem-list__item">
+                            <i class="fas fa-arrow-circle-right lorem-list__bullet"></i>
+                            Aliquam tincidunt mauris eu risu
+                        </li>
+                        <li class="lorem-list__item">
+                            <i class="fas fa-arrow-circle-right lorem-list__bullet"></i>
+                            Integer vitae libero ac risus egestas place
+                        </li>
+                        <li class="lorem-list__item">
+                            <i class="fas fa-arrow-circle-right lorem-list__bullet"></i>
+                            Donec quis dui at dolor tempor interdu
+                        </li>
+                        <li class="lorem-list__item">
+                            <i class="fas fa-arrow-circle-right lorem-list__bullet"></i>
+                            Fusce lobortis lorem at ipsum semper sagitti
+                        </li>
+                        <li class="lorem-list__item">
+                            <i class="fas fa-arrow-circle-right lorem-list__bullet"></i>
+                            Vestibulum auctor dapibus nequ
+                        </li>
                     </ul>
                 </section>
             </section>
         </main>
         <footer class="footer">
-            <article class="footer-item">
-                <h3 class="footer-item__title"></h3>
-                <img class="footer-item__image" src="images/footer-img1.png">
-                <p class="footer-item__text"></p>
-                <button class="footer-item__more-button">More <span class="footer-item__more-plus"></span></button>
-            </article>
-            <article class="footer-item">
-                <h3 class="footer-item__title"></h3>
-                <img class="footer-item__image" src="images/footer-img2.png">
-                <p class="footer-item__text"></p>
-                <button class="footer-item__more-button">More <span class="footer-item__more-plus"></span></button>
-            </article>
+            <section class="footer-portfolio">
+                <article class="footer-portfolio-item">
+                    <h3 class="footer-portfolio-item__title">Interidum mollis sellus</h3>
+                    <img class="footer-portfolio-item__image" src="images/footer-img1.png">
+                    <p class="footer-portfolio-item__text">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque
+                        aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
+                        ligula
+                    </p>
+                    <button class="footer-portfolio-item__more-button">
+                        More
+                        <i class="fas fa-plus-circle footer-portfolio-item__more-plus"></i>
+                        </button>
+                </article>
+                <article class="footer-portfolio-item">
+                    <h3 class="footer-portfolio-item__title">Vivamus vestibulum nulla</h3>
+                    <img class="footer-portfolio-item__image" src="images/footer-img2.png">
+                    <p class="footer-portfolio-item__text">
+                        jIrem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque
+                        aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
+                        ligula
+                    </p>
+                    <button class="footer-portfolio-item__more-button">
+                        More
+                        <i class="fas fa-plus-circle footer-portfolio-item__more-plus"></i>
+                    </button>
+                </article>
+            </section>
             <section class="copyright">
                 <p class="copyright__text">Copyright(c) website name. <strong>Designed by: www.alltemplateneeds.com</strong> / Images from: http://wallpaperswide.com / www.wallcoo.net</p>
             </section>
