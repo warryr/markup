@@ -1,0 +1,24 @@
+.footer-portfolio-item {
+
+}
+
+.footer-portfolio-item__title {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.footer-portfolio-item__image {
+
+}
+
+.footer-portfolio-item__text {
+  color: #8f6f7e;
+}
+
+.footer-portfolio-item__more-button {
+  text-transform: uppercase;
+}
+
+.footer-portfolio-item__more-plus {
+  color: #da4271;
+}

@@ -1,3 +1,7 @@
 .blog {
-    
+
+}
+
+.blog__title {
+  text-transform: uppercase;
 }

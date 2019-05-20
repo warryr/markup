@@ -1,5 +1,5 @@
 .lorem-list {
-
+  list-style-type: none;
 }
 
 .lorem-list__item {
@@ -7,5 +7,5 @@
 }
 
 .lorem-list__bullet {
-
+  color: #da4271;
 }

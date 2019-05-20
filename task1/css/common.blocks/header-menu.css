@@ -1,7 +1,15 @@
 .header-menu {
-
+  display: flex;
 }
 
 .header-menu__link {
-    
+  display: inline-block;
+  padding: 10px;
+  color: #4f1932;
+  text-transform: uppercase;
+}
+
+.header-menu__link:hover {
+  color: #da4271;
+  cursor: pointer;
 }

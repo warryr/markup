@@ -1,11 +1,19 @@
 .about-icons {
-
+  display: flex;
+  justify-content: space-between;
+  width: 230px;
 }
 
 .about-icons__icon-circle {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 68px;
+  height: 70px;
+  border: 2px solid #cfb8a6;
+  border-radius: 50%;
 }
 
 .about-icons__icon {
-    
+  color: #da4271;
 }

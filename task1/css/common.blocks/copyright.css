@@ -1,7 +1,8 @@
 .copyright {
-
+  margin: auto 0;
+  background-color: #4f1932;
 }
 
 .copyright__text {
-
+  color: #ffffff;
 }

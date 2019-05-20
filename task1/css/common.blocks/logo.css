@@ -1,3 +1,24 @@
+@font-face {
+  font-family: "OpenSans-Extrabold";
+  src: url("../../fonts/OpenSans-Extrabold.ttf");
+}
+
 .logo {
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 60px;
+  text-align: center;
+  background-color: #da4271;
+  box-shadow: 5px 8px 0 0 #00000011;
+}
+
+
+.logo__title {
+  display: inline-block;
+  color: white;
+  font-family: "OpenSans-Extrabold", Arial, sans-serif;
+  font-size: 26px;
+  text-transform: uppercase;
 }

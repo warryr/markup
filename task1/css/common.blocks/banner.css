@@ -1,7 +1,42 @@
 .banner {
-
+  display: flex;
+  justify-content: space-between;
 }
 
-.banner__item {
-    
+.banner__item_small {
+  flex-grow: 1;
+}
+
+.banner__item_large {
+  flex-grow: 1;
+}
+
+@media (min-width: 412px) {
+  .banner__item_small {
+    width: 82px;
+  }
+
+  .banner__item_large {
+    width: 247px;
+  }
+}
+
+@media (min-width: 768px) {
+  .banner__item_small {
+    width: 153px;
+  }
+
+  .banner__item_large {
+    width: 480px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .banner__item_small {
+    width: 204px;
+  }
+
+  .banner__item_large {
+    width: 614px;
+  }
 }

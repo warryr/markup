@@ -1,0 +1,46 @@
+@import "about.css";
+@import "about-caption.css";
+@import "about-icons.css";
+@import "banner.css";
+@import "blog.css";
+@import "blog-item.css";
+@import "contact-form.css";
+@import "copyright.css";
+@import "footer-portfolio-item.css";
+@import "footer-portfolio.css";
+@import "footer.css";
+@import "header.css";
+@import "header-menu.css";
+@import "info.css";
+@import "logo.css";
+@import "lorem.css";
+@import "lorem-list.css";
+@import "main.css";
+@import "news-item.css";
+@import "news.css";
+@import "portfolio.css";
+@import "portfolio-item.css";
+@import "quick-contact.css";
+
+@font-face {
+  font-family: "OpenSans-Extrabold";
+  src: url("./../../fonts/OpenSans-Extrabold.ttf");
+}
+
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url("./../../fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+  font-family: "SourceSansPro-Regular";
+  src: url("./../../fonts/SourceSansPro-Regular.otf");
+}
+
+html {
+  font-family: "SourceSansPro-Regular", Arial, sans-serif;
+}
+
+body {
+  background: url("../../images/background.png") repeat;
+}

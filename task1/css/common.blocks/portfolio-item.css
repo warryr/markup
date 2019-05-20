@@ -1,27 +1,63 @@
-.portfolio-item {
+@font-face {
+  font-family: "OpenSans-Extrabold";
+  src: url("./../../fonts/OpenSans-Extrabold.ttf");
+}
 
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url("./../../fonts/OpenSans-Light.ttf");
+}
+
+.portfolio-item {
+  display: inline-block;
+  width: 690px;
+  height: 190px;
+  background-color: #591d39;
 }
 
 .portfolio-item__image {
-
+  width: 215px;
+  height: 190px;
+  float: left;
 }
 
 .portfolio-item__title {
-
+  display: inline-block;
+  margin: 33px 0 0 29px;
+  font-family: "OpenSans-Extrabold", Arial, sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 .portfolio-item__subtitle {
-
+  display: inline-block;
+  margin: 0 0 0 29px;
+  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-size: 16px;
+  color: #da4271;
 }
 
 .portfolio-item__text {
-
+  display: inline-block;
+  width: 493px;
+  margin: 21px 0 0 29px;
+  font-size: 12px;
+  color: #8f6f7e;
 }
 
 .portfolio-item__more-button {
-
+  width: 78px;
+  height: 31px;
+  margin: 20px 0 0 29px;
+  font-family: "OpenSans-Extrabold", Arial, sans-serif;
+  font-size: 12px;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #00000000;
+  border: 1px solid #743b56;
 }
 
 .portfolio-item__more-plus {
-    
+  color: #da4271;
 }

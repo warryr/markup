@@ -1,9 +1,12 @@
 .blog-item {
-
 }
 
 .blog-item__text {
 
+}
+
+.blog-item__info {
+  display: flex;
 }
 
 .blog-item__author {
@@ -19,13 +22,13 @@
 }
 
 .blog-item__author-icon {
-
+  color: #591d39;
 }
 
 .blog-item__date-icon {
-
+  color: #591d39;
 }
 
 .blog-item__comments-icon {
-
+  color: #591d39;
 }
