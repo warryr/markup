@@ -9,7 +9,6 @@
   left: 585px;
   display: inline-block;
   width: 300px;
-  height: 359px;
   background-color: #da4271;
 }
 
@@ -17,7 +16,7 @@
   display: inline-block;
   margin: 30px 0 0 31px;
   font-family: "OpenSans-Extrabold", Arial, sans-serif;
-  font-size: 18px;
+  font-size: 1.1rem;
   color: #ffffff;
   text-transform: uppercase;
 }

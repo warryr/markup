@@ -1,8 +1,11 @@
 .blog-item {
+
 }
 
 .blog-item__text {
-
+  font-size: 0.75rem;
+  color: #8f6f7e;
+  letter-spacing: 0.09em;
 }
 
 .blog-item__info {
@@ -10,15 +13,18 @@
 }
 
 .blog-item__author {
-
+  font-size: 0.6rem;
+  color: #da4271;
 }
 
 .blog-item__date {
-
+  font-size: 0.6rem;
+  color: #da4271;
 }
 
 .blog-item__comments {
-
+  font-size: 0.6rem;
+  color: #da4271;
 }
 
 .blog-item__author-icon {

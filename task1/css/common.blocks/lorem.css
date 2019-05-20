@@ -1,11 +1,21 @@
-.lorem {
+@font-face {
+  font-family: "OpenSans-Extrabold";
+  src: url("./../../fonts/OpenSans-Extrabold.ttf");
+}
 
+.lorem {
+  width: 20%;
 }
 
 .lorem__title {
+  font-family: "OpenSans-Extrabold", Arial, sans-serif;
+  font-size: 1.1rem;
+  color: #591d39;
   text-transform: uppercase;
 }
 
 .lorem__caption {
-    
+  font-size: 0.7rem;
+  color: #8f6f7e;
+  letter-spacing: 0.09em;
 }

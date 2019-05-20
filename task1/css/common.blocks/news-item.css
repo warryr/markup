@@ -1,15 +1,50 @@
-.news-item {
+@font-face {
+  font-family: "OpenSans-Extrabold";
+  src: url("./../../fonts/OpenSans-Extrabold.ttf");
+}
 
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url("./../../fonts/OpenSans-Light.ttf");
+}
+
+.news-item {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.news-item__date-container {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background-color: #da4271;
+  border-radius: 50%;
+  text-align: center;
 }
 
 .news-item__date {
+  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-size: 0.7rem;
+  color: #ffffff;
+  text-transform: uppercase;
+}
 
+.news-item__date-number {
+  padding: 0 25%;
+  font-family: "OpenSans-Extrabold", Arial, sans-serif;
 }
 
 .news-item__text {
+  font-size: 0.75rem;
+  color: #8f6f7e;
+  letter-spacing: 0.09em;
 
 }
 
 .news-item__more-link {
+  font-size: 0.75rem;
+  color: #8f6f7e;
+  letter-spacing: 0.09em;
     
 }

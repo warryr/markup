@@ -1,7 +1,15 @@
-.blog {
+@font-face {
+  font-family: "OpenSans-Extrabold";
+  src: url("./../../fonts/OpenSans-Extrabold.ttf");
+}
 
+.blog {
+  width: 20%;
 }
 
 .blog__title {
+  font-family: "OpenSans-Extrabold", Arial, sans-serif;
+  font-size: 1.1rem;
+  color: #591d39;
   text-transform: uppercase;
 }

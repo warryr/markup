@@ -2,14 +2,15 @@
   display: flex;
   justify-content: space-between;
   width: 230px;
+  height: 70px;
 }
 
 .about-icons__icon-circle {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 68px;
-  height: 70px;
+  width: 30%;
+  height: 100%;
   border: 2px solid #cfb8a6;
   border-radius: 50%;
 }

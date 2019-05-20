@@ -37,6 +37,25 @@
   src: url("./../../fonts/SourceSansPro-Regular.otf");
 }
 
+
+@media (min-width: 412px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 20px;
+  }
+}
+
 html {
   font-family: "SourceSansPro-Regular", Arial, sans-serif;
 }

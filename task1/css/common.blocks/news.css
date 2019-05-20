@@ -1,7 +1,15 @@
-.news {
+@font-face {
+  font-family: "OpenSans-Extrabold";
+  src: url("./../../fonts/OpenSans-Extrabold.ttf");
+}
 
+.news {
+  width: 20%;
 }
 
 .news__title {
+  font-family: "OpenSans-Extrabold", Arial, sans-serif;
+  font-size: 1.1rem;
+  color: #591d39;
   text-transform: uppercase;
 }

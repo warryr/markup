@@ -1,10 +1,12 @@
 .header-menu {
   display: flex;
+  justify-content: right;
 }
 
 .header-menu__link {
   display: inline-block;
   padding: 10px;
+  font-size: 0.7rem;
   color: #4f1932;
   text-transform: uppercase;
 }
