@@ -1,6 +1,6 @@
 .header-menu {
   display: flex;
-  justify-content: right;
+  justify-items: end;
 }
 
 .header-menu__link {
