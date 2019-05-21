@@ -1,6 +1,6 @@
-var newReleases = require('./newReleases');
+const newReleases = require('./newReleases');
 
-var newArray = newReleases.map(object => ({
+const newArray = newReleases.map(object => ({
     id: object.id,
     title: object.title,
     boxart: object.boxart,

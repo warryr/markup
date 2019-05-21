@@ -1,4 +1,4 @@
-var movieLists = [
+const movieLists = [
 {
 	name: "Instant Queue",
 	videos : [{

@@ -6,8 +6,8 @@ Array.prototype.filter = function(predicateFunction) {
         }
     }
     return array;
-  };
+};
   
-  console.log([1,2,3].filter(function(x) { return x > 2; }));
-  console.log(JSON.stringify([1,2,3].filter(function(x) { return x > 2; })) === "[3]");
+console.log([1,2,3].filter(function(x) { return x > 2; }));
+console.log(JSON.stringify([1,2,3].filter(function(x) { return x > 2; })) === "[3]");
   
