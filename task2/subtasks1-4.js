@@ -20,4 +20,4 @@ console.log( add.apply(voltron, [20, 30]) );
 
 // #4 Вывести результат сложения Voltron «drinking» и «beer» используя bind
 add = add.bind(voltron);
-console.log( add("drinking", "beer") )
+console.log( add("drinking", "beer") );
