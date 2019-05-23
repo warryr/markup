@@ -19,7 +19,7 @@ const work = () => {
     const startTime = new Date().getTime();
 
     for (let i = 1; i < numberOfFunctions; i++) {
-        let time = generateNumber(1, 5);
+        let time = generateNumber(1, 10);
         promises.push(generateFunction(i, time));
     }
 
