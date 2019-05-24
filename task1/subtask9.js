@@ -1,3 +1,7 @@
+const reduce = require('./subtask6').reduce;
+
+Array.prototype.reduce = reduce;
+
 const videos = [{
 	"id": 65432445,
 	"title": "The Chamber"

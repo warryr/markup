@@ -1,3 +1,9 @@
+const map = require('./subtask1').map;
+const reduce = require('./subtask6').reduce;
+
+Array.prototype.map = map;
+Array.prototype.reduce = reduce;
+
 const boxarts = [{
     width: 200,
     height: 200,

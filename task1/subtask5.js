@@ -1,3 +1,9 @@
+const map = require('./subtask1').map;
+const filter = require('./subtask3').filter;
+
+Array.prototype.map = map;
+Array.prototype.filter = filter;
+
 const movieLists = [
 {
 	name: "Instant Queue",

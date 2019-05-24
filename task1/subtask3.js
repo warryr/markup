@@ -1,4 +1,4 @@
-Array.prototype.filter = function(predicateFunction) {
+function filter(predicateFunction) {
     const array = [];
     for (let el of this) {
         if (predicateFunction(el)) {
@@ -7,6 +7,9 @@ Array.prototype.filter = function(predicateFunction) {
     }
     return array;
 };
+
+Array.prototype.filter = filter;
+module.exports = { filter };
   
 console.log([1,2,3].filter(function(x) { return x > 2; }));
 console.log(JSON.stringify([1,2,3].filter(function(x) { return x > 2; })) === "[3]");
