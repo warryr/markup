@@ -73,12 +73,14 @@ const movieLists = [
 }];
 
 const arrays = movieLists.map(object => 
-    object.videos.map(video => ({
-        id: video.id,
-        title: video.title,
-        boxart: video.boxarts.filter(boxart => boxart.width === 150)[0].url,
-
-    }))
+    object.videos.map(video => {
+        const boxart = video.boxarts.filter(boxart => boxart.width === 150 && boxart.height === 200);
+        return {
+            id: video.id,
+            title: video.title,
+            boxart: boxart.length ? boxart[0].url : 'no correct boxart',
+        };
+    })
 );
 
 const newArray = arrays[0].concat(arrays[1]);
