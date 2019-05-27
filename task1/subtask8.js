@@ -1,5 +1,5 @@
-const map = require('./subtask1').map;
-const reduce = require('./subtask6').reduce;
+const map = require('./map');
+const reduce = require('./reduce');
 
 Array.prototype.map = map;
 Array.prototype.reduce = reduce;

@@ -1,5 +1,5 @@
 const newReleases = require('./newReleases');
-const map = require('./subtask1').map;
+const map = require('./map');
 
 Array.prototype.map = map;
 

@@ -1,5 +1,5 @@
-const map = require('./subtask1').map;
-const filter = require('./subtask3').filter;
+const map = require('./map');
+const filter = require('./filter');
 
 Array.prototype.map = map;
 Array.prototype.filter = filter;

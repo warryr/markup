@@ -1,4 +1,4 @@
-const reduce = require('./subtask6').reduce;
+const reduce = require('./reduce');
 
 Array.prototype.reduce = reduce;
 
